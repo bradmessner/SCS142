@@ -49,12 +49,49 @@ legend(
        c("Age","Value"),
        fill=c("blue","red")
 )
-)
+
+
+
+
+
+
+
+
+
+
 
 barplot(ReadData$Age, main="Age Distribution", ylab="Age", xlab="Data")
+
+
+
+
+
+
 barplot(ReadData$Age, main="Age Distribution", ylab="Data", xlab="Age", horiz=TRUE, col=c("red"))
+
+
+
+
+
+
+
+
+
+
+
+
 barplot(ReadData$Age, main="Age Distribution", ylab="Data", xlab="Age", horiz=TRUE, names.arg=c("Data 1", "Data 2", "Data 3","Data 4", "Data 5", "Data 6","Data 7", "Data 8", "Data 9"))
 
-boxplot(ReadData$Age)
-hist(ReadData$Age)      # What's different about this one?
+
+
+
+
+
+boxplot(ReadData$Age, main="Age")
+
+
+
+
+
+hist(ReadData$Age, main="Age")      # What's different about this one?
 
